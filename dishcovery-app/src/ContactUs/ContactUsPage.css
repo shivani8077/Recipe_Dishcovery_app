@@ -1,0 +1,26 @@
+.contactus {
+    width: 80%;
+    /* display: flex; */
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 1% auto;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(220, 245, 172);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contact-card {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 1% auto;
+    gap: 5%;
+}

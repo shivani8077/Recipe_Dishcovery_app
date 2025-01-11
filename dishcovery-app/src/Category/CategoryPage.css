@@ -1,0 +1,45 @@
+.card-container {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 300%;
+    text-shadow: 2px 2px rgb(14, 173, 14);
+}
+
+.category-card {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 1% auto;
+    gap: 5%;
+    background-color:rgb(220, 245, 172);
+}
+
+.card {
+    text-align: center;
+    padding: 3%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card h4{
+    margin-top: 2%;
+    text-decoration: none;
+    font-size:x-larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+h4 a{
+    text-decoration: none;
+    color:black;
+}
+
+h4 a:hover{
+    color:#28a745;
+}
