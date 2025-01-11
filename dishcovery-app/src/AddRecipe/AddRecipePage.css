@@ -1,0 +1,58 @@
+.add-recipe-container {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 400%;
+    text-shadow: 3px 3px rgb(14, 173, 14);
+}
+
+.add-recipe-card {
+    width: 50%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0 auto; /*Centers the card*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-card{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input[type=textarea], textarea{
+    width: 100%;
+    padding: 8px;
+    border:1px solid #ccc;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+button{
+    background-color: #28a745;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 1%;
+    width: 20%;
+    color:white;
+    font-weight: bolder;
+    font-size:medium;
+    border:none;
+}
+
+button:hover{
+    background-color: rgb(29, 206, 29);
+}

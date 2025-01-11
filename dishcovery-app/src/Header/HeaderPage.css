@@ -1,0 +1,46 @@
+.logo {
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+
+.Header {
+    text-align: center;
+}
+
+nav{
+    display:flex;
+    gap:5%;
+    justify-content: center;
+    padding: 1%;
+}
+
+nav a{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+nav a:hover{
+    color:rgb(109, 102, 102);
+}
+
+input{
+    width: 20%;
+    padding: 0.5% 0.5%;
+}
+input[type=text]{
+    background-image: url('F:\0a projects\App\food-app\src\Images\icons8-search-50.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 98%;
+}
+
+nav button:hover {
+    background-color: #218838; /* Darker green on hover */
+}

@@ -1,0 +1,92 @@
+.bg-img {
+    background-image: url('F:\0a projects\App\food-app\src\Images\bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: max-content;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 30%;
+    padding: 0.5% 0.5%;
+    border-radius: 15px;
+}
+
+input[type=text] {
+    background-image: url('F:\0a projects\App\food-app\src\Images\icons8-search-50.png');
+    background-repeat: no-repeat;
+    background-size: 8%;
+    background-position: 98%;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.heading {
+    font-size: 500%;
+    font-weight: bolder;
+    text-shadow: 5px 5px rgb(30, 211, 14);
+}
+
+.para {
+    font-size: 200%;
+    font-weight: bolder;
+    text-shadow: 2px 2px #e64a19;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.add-recipe-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    text-decoration: none;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    /* position: fixed; */
+}
+
+.add-recipe-btn:hover {
+    background-color: #e64a19;
+}
+
+/* .card-container {
+    column-count: 4;
+    gap: 5%;
+    padding: 20px;
+    margin: 2%;
+    box-shadow: 0 4px 8px rgb(30, 211, 14);
+    border: 1px solid white;
+}
+
+.card {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgb(30, 211, 14);
+    text-align: center;
+} */
+
+/* h4 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4 a:hover {
+    color: rgb(30, 211, 14);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+} */
